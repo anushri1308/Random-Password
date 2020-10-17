@@ -1,7 +1,7 @@
 import random
 
 wordlist=[]
-special_char = ['!', '@', '#', '$', '^', '&']
+special_char = ['!', '@', '#', '$', '^', '&', '%', '*', '?']
 with open("text.txt", 'r') as file:
     data = file.readlines()
     for line in data:
